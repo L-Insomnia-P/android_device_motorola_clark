@@ -45,6 +45,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     device/motorola/clark/audio/audio_policy.conf:system/etc/audio_policy.conf
 
+# Thermal
+PRODUCT_COPY_FILES += \
+    device/motorola/clark/configs/thermal-engine-clark.conf:system/etc/thermal-engine-clark.conf
+
 PRODUCT_COPY_FILES += \
     device/motorola/clark/audio/audio_effects.conf:system/vendor/etc/audio_effects.conf \
     device/motorola/clark/audio/mixer_paths.xml:system/etc/mixer_paths.xml \
